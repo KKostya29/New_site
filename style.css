@@ -1,0 +1,181 @@
+html,body{
+    height: 100%;
+    background-color:rgb(0, 159, 252);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1612905290_122-p-krasnaya-ploshchad-fon-160.jpg');
+    background-size: cover;
+    background-position: center center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    flex-direction: column;
+}
+nav {
+    width: 100vw;
+    padding: 1em 0 1em;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.nav-item {
+    width: fit-content;
+    padding: .5em;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: .5em;
+    color: white;
+    margin-right: 1em;
+    user-select: none;
+    cursor: pointer;
+}
+
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5em 0;
+    box-sizing: border-box;
+}
+
+.section-1 {
+    background-image: url("");
+    background-size: cover;
+}
+
+.section-2 {
+    background-image: url("");
+    background-size: cover;
+}
+
+.section-3 {
+    background-image: url("");
+    background-size: cover;
+}
+.section-footer {
+    background-color: white;
+}
+
+
+.block{
+    display: inline;
+    justify-content: center;
+}
+
+.image{
+    display: inline;
+    max-width: 1000px;
+    max-height: 500px;
+}
+
+
+footer{
+    background-color: rgb(255, 225, 225);
+}
+
+.submit-wrapper {
+    width: 60vw;
+}
+
+.submit-wrapper > h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: left;
+    width: 60vw;
+}
+
+.submit-form {
+    width: 100%;
+    display: flex;
+    border: 1px solid #5D4229;
+    border-bottom: none;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 1em;
+}
+
+.submit-btn-row{
+    width: 100%;
+    display: flex;
+}
+
+.submit-btn {
+    width: 50%;
+    box-sizing: border-box;
+    background: #C2AB99;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.submit-btn-send {
+    border-bottom-right-radius: 5px;
+    padding: .5em;
+    border-left: .5px solid #D1BBAA;
+    border-right: 1px solid #5D4229;
+    border-bottom: 1px solid #5D4229;
+    width: 100%;
+}
+
+.submit-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.submit-input,
+.submit-select {
+    font-family: 'Montserrat', sans-serif;
+    background: transparent;
+    border: none;
+    padding: .5em;
+    border-bottom: 1px solid #5D4229;
+    font-size: 1.1em;
+}
+
+.submit-input:active,
+.submit-input:focus,
+.submit-select:active,
+.submit-select:focus {
+    border-bottom: 1px solid #5D4229;
+    outline: none;
+}
+
+.submit-select {
+    /* border: none; */
+    padding: calc(.5em - 1px);
+}
+
+.submit-input-label {
+    font-size: .7em;
+    margin: 0 0 1em 0;
+    padding-left: .7em;
+}
+
+.submit-input-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.row-item {
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
